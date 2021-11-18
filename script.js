@@ -9,10 +9,10 @@ document.getElementById('buttons-container').addEventListener('click', function(
             output.value = (output.value).slice(0, -1);
         }
         else if(clickedDigit === '÷'){
-            output.value = output.value + '÷';
+            output.value = output.value + '/';
         }
         else if(clickedDigit === '×'){
-            output.value = output.value + '×';
+            output.value = output.value + '*';
         }
         else if(clickedDigit === '-'){
             output.value = output.value + '-';
